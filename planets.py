@@ -22,3 +22,9 @@ print(planet_list)
 # Slice the list in order to get the rocky planets into a new list called rocky_planets
 rocky_planets = planet_list[0:4]
 print(rocky_planets)
+
+# Use del to remove pluto from the end of the list
+del(planet_list[8])
+# Using Remove, which deletes the first matching value:
+# planet_list.remove("Pluto")
+print(planet_list)
